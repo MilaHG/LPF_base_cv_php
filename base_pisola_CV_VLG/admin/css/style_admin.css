@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document admin pisola*/
+
+body {
+	background-color: #D0D7C0;
+}
+
+.container-fluid {
+	background: #F6FBF5;
+}
+
+.container {
+	background: #FFFFFF;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.sombre {
+	background: #A09883;
+	color: #fff;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+a {
+	color: #000;
+}a:hover {
+	color: olive;
+	background: #F6FBF5;
+}
+
+.geometrique {
+	background-image: url(../img/geometrique.png);
+	height: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+}
+
+.fond_fonce {
+	background: #D0D7C0;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 10px;
+	opacity: 0.9;
+	color: #665C4A;
+}
+
+/*pour le menu*/
+.sr-only {
+	background: #665C4A;
+}
